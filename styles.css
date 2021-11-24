@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background-color: #f1f1f1;
+  color: #1f1f1f;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.table {
+    width: 100%;
+   
+}
+
+.link-list {
+
+}
+
+.contakt h2 {
+   text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 15px;
+    color: turquoise;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 10px 0 15px;
+    outline: none;
+    font-family: inherit;
+    
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.table td {
+    padding-bottom: 20px;
+}
+
+.table td:nth-child(3) {
+    color: tomato;
+}
+
+.list {
+    padding: 0 20px;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 15px ;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+
+#gitt:hover {
+    text-decoration: line-through;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    margin: 0;
+    color: seagreen;
+    letter-spacing: 8px;
+}
+.info {
+    display: flex;
+}
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.tovary {
+  /*background: springgreen;
+  padding: 20px;
+  border: 5px solid brown;
+  margin: 30px;
+  border-top-style: dotted;
+  border-bottom-color: chartreuse;
+  border-bottom-width: 20px;*/
+}
+
+.container {
+    width: 75%  ;
+    margin: auto;
+}
+
+.box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+    border: 4px dotted rebeccapurple;
+    box-sizing: border-box;
+}
+
+.btn {
+    background: black;
+    color:white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.position {
+    border: 4px solid black;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: lightcoral;
+}
